@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quizz - Ecosphere 2024</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Descobre o teu estilo sustentável</h1>
+  </header>
+
+  <main class="quiz-container">
+    <form id="quiz-form">
+      <!-- Pergunta 1 -->
+      <div class="question">
+        <h2>Como descreves o teu estilo de vida atual?</h2>
+        <label>
+          <input type="radio" name="q1" value="vegetariano"> Vegetariano
+        </label>
+        <label>
+          <input type="radio" name="q1" value="minimalista"> Minimalista
+        </label>
+        <label>
+          <input type="radio" name="q1" value="zero waste"> Zero Waste
+        </label>
+      </div>
+
+      <!-- Pergunta 2 -->
+      <div class="question">
+        <h2>Como preferes deslocar-te no dia a dia?</h2>
+        <label>
+          <input type="radio" name="q2" value="bicicleta"> Bicicleta
+        </label>
+        <label>
+          <input type="radio" name="q2" value="transportes"> Transportes Públicos
+        </label>
+        <label>
+          <input type="radio" name="q2" value="carro eletrico"> Carro Elétrico
+        </label>
+      </div>
+
+      <!-- Pergunta 3 -->
+      <div class="question">
+        <h2>Qual é o teu hábito sustentável favorito?</h2>
+        <label>
+          <input type="radio" name="q3" value="reciclagem"> Reciclagem
+        </label>
+        <label>
+          <input type="radio" name="q3" value="compostagem"> Compostagem
+        </label>
+        <label>
+          <input type="radio" name="q3" value="reutilizacao"> Reutilização de Objetos
+        </label>
+      </div>
+
+      <!-- Botão de envio -->
+      <button type="button" id="submit-btn">Descobre o Resultado</button>
+    </form>
+
+    <div id="result" class="result">
+      <!-- Resultado será exibido aqui -->
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2024 Ecosphere</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+echo "# ecosphere" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/xmoond/ecosphere.git
+git push -u origin main
